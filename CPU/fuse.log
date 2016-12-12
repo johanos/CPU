@@ -1,0 +1,48 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/CPU_top_tb_isim_beh.exe" -prj "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/CPU_top_tb_beh.prj" "work.CPU_top_tb" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Register.v" into library work
+Analyzing Verilog file "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/nbit_register_file.v" into library work
+Analyzing Verilog file "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/MUX_4_1.v" into library work
+Analyzing Verilog file "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/MUX_2_1.v" into library work
+Analyzing Verilog file "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/InstructionRegister.v" into library work
+Analyzing Verilog file "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/IMem.v" into library work
+Analyzing Verilog file "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Ideal_ALU.v" into library work
+Analyzing Verilog file "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/DMem.v" into library work
+Analyzing Verilog file "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/CPU_Control.v" into library work
+Analyzing Verilog file "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/ALU_Control.v" into library work
+Analyzing Verilog file "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Top_Control.v" into library work
+Analyzing Verilog file "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" into library work
+Analyzing Verilog file "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/CPU_top.v" into library work
+Analyzing Verilog file "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/CPU_top_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 106: Size mismatch in connection of port <ReadData>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 119: Size mismatch in connection of port <PC>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 173: Size mismatch in connection of port <in0>. Formal port size is 32-bit while actual signal size is 1-bit.
+Completed static elaboration
+Compiling module Register(DATA_SIZE=16)
+Compiling module MUX_2_1
+Compiling module DMem
+Compiling module IMem
+Compiling module InstructionRegister
+Compiling module Register
+Compiling module MUX_4_1
+Compiling module MUX_2_1(W=5)
+Compiling module nbit_register_file
+Compiling module Ideal_ALU
+Compiling module Datapath(DATA_WIDTH=32,DATA_SELE...
+Compiling module CPU_Control
+Compiling module ALU_Control
+Compiling module Top_Control
+Compiling module CPU_top
+Compiling module CPU_top_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 17 Verilog Units
+Built simulation executable W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/CPU_top_tb_isim_beh.exe
+Fuse Memory Usage: 28300 KB
+Fuse CPU Usage: 655 ms

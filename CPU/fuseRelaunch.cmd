@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/CPU_top_tb_isim_beh.exe" -prj "W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/CPU_top_tb_beh.prj" "work.CPU_top_tb" "work.glbl" 

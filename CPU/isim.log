@@ -1,0 +1,37 @@
+ISim log file
+Running: W:\Universal Google Drive Folder\College\EC413 Comp Org\Assignments\Project\CPU\CPU_top_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb W:/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/CPU_top_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 49.  For instance Datapath1/PC/, width 16 of formal port ReadData is not equal to width 32 of actual signal PC_Out.
+WARNING: File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 49.  For instance Datapath1/instructionMemory/, width 16 of formal port PC is not equal to width 32 of actual signal PC_Out.
+WARNING: File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 44.  For instance Datapath1/Branch_MUX/, width 32 of formal port in0 is not equal to width 1 of actual signal zero_not.
+WARNING: File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 62.  For instance Datapath1/Branch_MUX/, width 32 of formal port in1 is not equal to width 1 of actual signal zero.
+WARNING: File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 69.  For instance Datapath1/Branch_MUX/, width 32 of formal port in2 is not equal to width 1 of actual signal and_blt_Out.
+WARNING: File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 68.  For instance Datapath1/Branch_MUX/, width 32 of formal port in3 is not equal to width 1 of actual signal or_ble_Out.
+WARNING: File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 46.  For instance Datapath1/Branch_MUX/, width 32 of formal port MuxOut is not equal to width 1 of actual signal Branch_Out.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 49.  For instance Datapath1/PC/, width 16 of formal port ReadData is not equal to width 32 of actual signal PC_Out.
+WARNING: File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 49.  For instance Datapath1/instructionMemory/, width 16 of formal port PC is not equal to width 32 of actual signal PC_Out.
+WARNING: File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 44.  For instance Datapath1/Branch_MUX/, width 32 of formal port in0 is not equal to width 1 of actual signal zero_not.
+WARNING: File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 62.  For instance Datapath1/Branch_MUX/, width 32 of formal port in1 is not equal to width 1 of actual signal zero.
+WARNING: File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 69.  For instance Datapath1/Branch_MUX/, width 32 of formal port in2 is not equal to width 1 of actual signal and_blt_Out.
+WARNING: File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 68.  For instance Datapath1/Branch_MUX/, width 32 of formal port in3 is not equal to width 1 of actual signal or_ble_Out.
+WARNING: File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/Datapath.v" Line 46.  For instance Datapath1/Branch_MUX/, width 32 of formal port MuxOut is not equal to width 1 of actual signal Branch_Out.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1000s
+Stopped at time : 554493595 ns : File "//Mac/Google Drive/Universal Google Drive Folder/College/EC413 Comp Org/Assignments/Project/CPU/CPU_top_tb.v" Line 42
